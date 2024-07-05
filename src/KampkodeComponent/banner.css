@@ -1,0 +1,16 @@
+.banner {
+    margin-top: 25%;
+    background-image: url('C:/Users/JAGADEESH/OneDrive/Desktop/KampKode/kampkode/public/banner.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 40rem; 
+  }
+ 
+  @media (max-width: 768px) {
+    .banner {
+        margin-top: 7%;
+        background-image: url('C:/Users/JAGADEESH/OneDrive/Desktop/KampKode/kampkode/public/banner2.png');
+      }
+      
+     
+  }

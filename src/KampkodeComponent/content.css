@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  overflow: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.content-container {
+  text-align: center;
+  position: relative;
+ 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  margin-top: auto;
+  
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #f0eefd;
+  z-index: -1;
+}
+
+.ellipse1, .ellipse2, .ellipse3, .ellipse4, .ellipse5, .ellipse6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ellipse1 {
+  width: 70vw;
+  height: 70vw;
+}
+
+.ellipse2 {
+  width: 55vw;
+  height: 55vw;
+}
+
+.ellipse3 {
+  width: 40vw;
+  height: 40vw;
+}
+
+.ellipse4 {
+  width: 85vw;
+  height: 85vw;
+}
+
+.ellipse5 {
+  width: 95vw;
+  height: 95vw;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 5vw;
+
+ 
+}
+
+.content h1 {
+  font-size: 3vw;
+  margin: 0;
+}
+
+.content p {
+  font-size: 1.5vw;
+  margin: 20px 0;
+}
+
+.content button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.start-learning, .join-now {
+  cursor: pointer;
+  color: #7D6EEB;
+  border: 2px solid #7D6EEB !important;
+  border-radius: 10px !important;
+}
+
+button:hover {
+  color: #fff !important;
+  background-color: #7D6EEB;
+}
+
+button.clicked {
+  color: #fff !important;
+  background-color: #7D6EEB;
+}
+
+.icons {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.icon img {
+  width: 5vw;
+  height: 5vw;
+}
+
+#icon1{
+  top: calc(15% - 2.5vw);
+   left: calc(50% - 2.5vw);
+}
+#icon2{
+  top: calc(10% - 2.5vw);
+   left: calc(80% - 2.5vw);
+}
+#icon3{
+  top: calc(80% - 2.5vw);
+   left: calc(20% - 2.5vw);
+}
+#icon4{
+  top: calc(123% - 2.5vw); 
+  left: calc(80% - 2.5vw);
+}
+#icon5{
+  top: calc(30% - 2.5vw);
+  left: calc(12% - 2.5vw);
+}
+#icon6{
+  top: calc(111% - 2.5vw);
+   left: calc(50% - 2.5vw);
+}
+#icon7{
+  top: calc(56% - 2.5vw);
+   left: calc(95% - 2.5vw);
+}
+#icon8{
+  top: calc(140% - 2.5vw);
+  left: calc(30% - 2.5vw);
+}
+
+
+@media (max-width: 768px) {
+
+  .content-container {
+    height: auto;
+    
+  }
+  
+
+  .ellipse1 {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .ellipse2 {
+    width: 55vw;
+    height: 55vw;
+  }
+
+  .ellipse3 {
+    width: 85vw;
+    height: 85vw;
+  }
+
+  .ellipse4 {
+    width: 95vw;
+    height: 95vw;
+  }
+
+  .ellipse5 {
+    width: 120vw;
+    height: 120vw;
+  }
+
+  .content {
+    padding: 10vw;
+    margin-top: 80px;
+  }
+
+  .content h1 {
+    font-size: 5vw;
+  }
+
+  .content p {
+    font-size: 3vw;
+  }
+
+  .content button {
+    font-size: 3vw;
+    width: 100%;
+  }
+
+  .icon img {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  #icon1{
+    top: calc(24% - 2.5vw);
+     left: calc(52% - 2.5vw);
+  }
+  #icon2{
+    top: calc(5% - 2.5vw);
+     left: calc(65% - 2.5vw);
+  }
+  #icon3{
+    top: calc(80% - 2.5vw);
+     left: calc(20% - 2.5vw);
+  }
+  #icon4{
+    top: calc(107% - 2.5vw); 
+    left: calc(80% - 2.5vw);
+  }
+  #icon5{
+    top: calc(30% - 2.5vw);
+    left: calc(10% - 2.5vw);
+  }
+  #icon6{
+    top: calc(95% - 2.5vw);
+     left: calc(50% - 2.5vw);
+  }
+  #icon7{
+    top: calc(56% - 2.5vw);
+     left: calc(95% - 2.5vw);
+  }
+  #icon8{
+    top: calc(109% - 2.5vw);
+    left: calc(30% - 2.5vw);
+  }
+
+}
